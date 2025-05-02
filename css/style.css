@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #fff;
+    color: #222;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+  }
+  
+  .logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .cont-title {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .site-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    width: max-content;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .nav-links {
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .nav-links li a:hover {
+    color: #04AA6D;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    z-index: 1001; /* Para que quede por encima del menú */
+  }
+  
+  .bar {
+    width: 28px;
+    height: 3px;
+    background: #222;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 700px) {
+    .nav-links {
+      position: fixed;
+      right: -100%;
+      top: 70px;
+      flex-direction: column;
+      background: #fff;
+      width: 200px;
+      gap: 0;
+      transition: right 0.3s;
+      box-shadow: -2px 0 10px rgba(0,0,0,0.08);
+      padding-top: 2rem;
+      z-index: 999;
+    }
+  
+    .nav-links.active {
+      right: 0;
+    }
+  
+    .nav-links li {
+      margin: 1.2rem 0;
+      text-align: left;
+      padding-left: 2rem;
+    }
+    .site-title {
+        font-size: 1.1rem;
+      }
+      .logo {
+        width: 40px;
+        height: 40px;
+      }
+      .header {
+        padding: 0.5rem 1rem;
+      }
+      .hamburger {
+        display: flex;
+      }
+  }
+  
+  /* Animación del icono hamburguesa a "X" */
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  
+  
