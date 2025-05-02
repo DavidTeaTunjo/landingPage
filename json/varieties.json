@@ -1,0 +1,22 @@
+{
+    "varieties": [
+      {
+        "id": "variety-n",
+        "name": "Variety n",
+        "image": "url_variety_n.jpg",
+        "description": "Descripción de la variedad n."
+      },
+      {
+        "id": "variety-1",
+        "name": "Variety 1",
+        "image": "url_variety_1.jpg",
+        "description": "Descripción de la variedad 1."
+      },
+      {
+        "id": "variety-2",
+        "name": "Variety 2",
+        "image": "url_variety_2.jpg",
+        "description": "Descripción de la variedad 2."
+      }
+    ]
+  }

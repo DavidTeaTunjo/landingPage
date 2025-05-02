@@ -1,0 +1,25 @@
+{
+    "origins": [
+      {
+        "id": "montebello",
+        "name": "Montebello",
+        "image": "url_montebello.jpg",
+        "description": "Descripción de Montebello.",
+        "location": {
+          "lat": 5.2506,
+          "lng": -75.5208
+        }
+      },
+      {
+        "id": "anserma",
+        "name": "Anserma",
+        "image": "url_anserma.jpg",
+        "description": "Descripción de Anserma.",
+        "location": {
+          "lat": 5.2353,
+          "lng": -75.7913
+        }
+      }
+    ]
+  }
+  
