@@ -1,33 +1,59 @@
 {
     "varieties": [
         {
-          "id": "variety-1",
-          "name": "Castillo Lactofermented",
-          "UrlImage": "assets/castillo_lactic.jpg",
-          "description": "Meticulously picked, a bold and playful cup, with sweet zesty acidity and layered notes of yogurt, red berries, and caramel after a meticulous 72-hour fermentation with carefully reproduced mirobiome from the farm. For a more traditional yet refined profile."
+          "id": "67babe87-ca61-4a91-ac3d-bdf87158ff80",
+          "name": "Exotic Castillo Antioquia",
+          "UrlImage": "assets/castillo_e_antioquia.jpg",
+          "process": "Lacto-fermented 75 Hrs"
+          "cupScore": "87"
+          "description": "Meticulously picked, a bold and playful cup, with sweet zesty acidity and layered notes of yogurt, red berries, and caramel after a meticulous fermentation with carefully reproduced microbiome from the farm. Grown at 1,820 masl in La Delia state, a traditional yet refined profile."
         },
         {
-          "id": "variety-2",
-          "name": "Castillo Washed",
-          "UrlImage": "assets/castillo_washed.jpg",
+          "id": "01657d01-86f0-46e9-af12-06c9b3e7a114",
+          "name": "Exotic Castillo Caldas",
+          "UrlImage": "assets/castillo_e_caldas.jpg",
+          "process": "Lacto-fermented 75 Hrs"
+          "cupScore": "86"
+          "description": "Carefully harvested, this expressive and vibrant cup reveals a sweet hazelnut and lemon aroma, lifted by a bright acidity of strawberries and blackberries, and grounded in a balanced body with hints of bitter cocoa. Developed through a 75-hour lactic acid fermentation, this lot from Cantaclaro in Caldas, grown at 1,710 masl, offers a modern twist on a classic highland profile."
+        },
+        {
+          "id": "7a493b61-1ce7-4999-987e-b070bc684e53",
+          "name": "Regional Castillo Antioquia",
+          "UrlImage": "assets/castillo_w_antioquia.jpg",
+          "process": "Washed"
+          "cupScore": "83"
           "description": "A Colombian flavor by excellence. It brings a balanced medium acidity with bright lime tones, rich chocolate, panela, and smooth caramel—a comforting cup rooted in heritage."
         },
         {
-          "id": "variety-2",
-          "name": "Gesha Washed",
+          "id": "d4ef752e-8c5e-4f4b-a0d0-866b2afe787a",
+          "name": "Regional Castillo Caldas",
+          "UrlImage": "assets/castillo_w_caldas.jpg",
+          "process": "Washed"
+          "cupScore": "83"
+          "description": "Rooted in tradition, this washed coffee from Cantaclaro in Caldas offers a clean, fruit-forward cup with medium body and a bright, balanced acidity. Grown at 1,710 masl and harvested during the peak season of October through December, it reflects the enduring heritage and careful craftsmanship of Colombian coffee culture."
+        },
+        {
+          "id": "03517e9c-0c87-4b51-832b-0e5fcb34cb09",
+          "name": "Gesha",
           "UrlImage": "assets/gesha_washed.jpg",
-          "description": "Grown at 1840 masl, reveals the elegance of the variety with delicate florals, silky body, and complex notes of jasmine, bergamot, and ripe red fruits, culminating in a refined, almost tea-like finish."
+          "process": "Washed"
+          "cupScore": "87"
+          "description": "Grown at 1,840 masl, reveals the elegance of the variety with delicate florals, silky body, and complex notes of jasmine, bergamot, and ripe red fruits, culminating in a refined, almost tea-like finish."
         },
         {
-          "id": "variety-2",
-          "name": "Pink Bourbon Washed",
+          "id": "e799694e-6c7c-437e-80a0-f1845c452464",
+          "name": "Pink Bourbon",
           "UrlImage": "assets/pink_bourbon.jpg",
-          "description": "A tribute to genetic enhancement in Colombia. A coffee that adds another dimension with medium lime acidity and a vibrant combination of plum, sugarcane, and tart cranberries."
+          "process": ""
+          "cupScore": "87"
+          "description": "A tribute to genetic enhancement in Colombia. A coffee that adds another dimension with medium lime acidity and a vibrant combination of plum, sugarcane, and tart cranberries. Grown in lands between 1,600-1,800 masl"
         },
         {
-          "id": "variety-2",
+          "id": "5bc5b9d5-1ed7-4e31-b315-b9ee67b0f7ee",
           "name": "Castillo Double Alcoholic",
           "UrlImage": "assets/castillo_double.jpg",
+          "process": "Double Alcoholic Fermentation"
+          "cupScore": "86"
           "description": "Undergoing 48 hours in cherry and 60 hours in mucilage—delivers a layered experience with sparkling tropical acidity, hints of passionfruit and stone fruit, and a syrupy body that carries through to a lingering finish of spiced cocoa and sweet tamarind."
         }
     ]
