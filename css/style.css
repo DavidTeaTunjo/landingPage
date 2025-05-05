@@ -6,7 +6,7 @@
   --soft-pink: #eca2c6;
   --dark-text: #2D2D2D;
   --soft-gray: #DADAD9;
-  --soft-pink-transparent: #eca2c6de;
+  --soft-pink-transparent: #eca2c6fb;
 }
 
 * {
@@ -83,9 +83,14 @@ nav {
 
 nav.scrolled {
   background-color: var(--soft-pink-transparent);
-  height: 30px;
+  height: 60px;
   align-content: center;
   border-radius: 10px;
+}
+
+nav.scrolled li a{
+
+  color: var(--neutral-light);
 }
 
 .nav-links {

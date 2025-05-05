@@ -38,12 +38,12 @@
   font-size: 1.1rem;
   color: var(--dark-text);
   text-align: center;
-  padding: 1rem;
+  padding: 5px;
 }
 
 .carousel-card.center {
-  width: 240px;
-  height: 340px;
+  width: 250px;
+  height: 370px;
   font-size: 1.3rem;
   opacity: 1;
   z-index: 2;
