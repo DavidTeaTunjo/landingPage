@@ -1,12 +1,12 @@
 .about-section {
     padding: 60px 20px;
-    background-color: #f5f7fa;
+    background-color: var(--neutral-light);
     text-align: center;
   }
   
   .about-title {
     font-size: 2.5rem;
-    color: #2d3a4b;
+    color: var(--primary-green);
     margin-bottom: 24px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -15,15 +15,16 @@
   .about-card {
     max-width: 80wh;
     margin: 0 auto;
-    background: #fff;
+    background: var(--neutral-light);
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(44,62,80,0.08);
     padding: 40px 30px;
+    border-top: 4px solid var(--primary-pink);
   }
   
   .about-description {
     font-size: 1.15rem;
-    color: #444;
+    color: var(--dark-text);
     line-height: 1.7;
     text-align: left;
   }

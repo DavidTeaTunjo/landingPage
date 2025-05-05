@@ -10,9 +10,10 @@
   min-width: 220px;  /* <-- Reduce el ancho mínimo */
   max-width: 240px;  /* <-- Reduce el ancho máximo */
   flex: 0 0 auto;
-  background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  background: var(--neutral-light);
+  border: 1px solid var(--soft-gray);
+  border-top: 4px solid var(--primary-green);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
   text-align: left;
   margin-bottom: 2rem;
   scroll-snap-align: center;
@@ -28,7 +29,7 @@
   object-fit: contain;
   border-radius: 18px 18px 0 0;
   display: block;
-  background: #eee; /* Así se ve un fondo uniforme */
+  background: var(--soft-green);
 }
 
 
@@ -44,7 +45,7 @@
 .process-desc h3 {
   margin-bottom: 0.3em;
   font-size: 1.15rem;
-  color: #04AA6D;
+  color: var(--primary-pink);
 }
 
 .process-desc ul {
@@ -80,13 +81,14 @@
   background: #eee;
 }
 .proc-track::-webkit-scrollbar-thumb {
-  background: #04AA6D;
+  background: var(--primary-green);
   border-radius: 4px;
 }
 
 
 .proc-btn {
   display: none;
+  background: var(--primary-pink);
 }
 
 
@@ -132,7 +134,7 @@
     transition: background 0.2s;
   }
   .proc-btn:hover {
-    background: #037d51;
+    background: var(--soft-pink);
   }
   .proc-btn.prev { left: 2px; }
   .proc-btn.next { right: 2px; }

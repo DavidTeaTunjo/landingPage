@@ -1,27 +1,27 @@
 .contact-section {
     padding: 60px 20px;
-    background: #e8f0ee;
     text-align: center;
   }
   
   .contact-title {
     font-size: 2.5rem;
-    color: #2d3a4b;
+    background: var(--primary-green);
     margin-bottom: 24px;
     font-weight: bold;
     letter-spacing: 1px;
   }
   
   .contact-info-card {
-    max-width: 80wh;
+    max-width: 80vw;
     margin: 0 auto;
-    background: #fff;
+    background: var(--neutral-light);
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(44,62,80,0.08);
     padding: 40px 30px;
     font-size: 1.15rem;
-    color: #444;
+    color: var(--dark-text);
     text-align: left;
+    border-left: 6px solid var(--primary-pink);
   }
   
   .contact-info-card p {
@@ -29,14 +29,14 @@
   }
   
   .contact-info-card a {
-    color: #4db38c;
+    color: var(--primary-pink);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s;
   }
   
   .contact-info-card a:hover {
-    color: #2d3a4b;
+    color: var(--primary-green);
   }
   
   @media (max-width: 600px) {

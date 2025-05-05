@@ -9,12 +9,12 @@
     border: 1px solid #bbb;
     border-radius: 10px;
     padding: 1rem;
-    background: #fff;
+    background: var(--neutral-light);
     box-sizing: border-box;
-    /* max-width: 90vw; */
+    border: 1px solid var(--soft-gray);
     max-width: 900px;
     margin: 0 auto;
-    /* Sombra ligera para resaltar en móvil */
+    border-top: 4px solid var(--primary-green);
     box-shadow: 0 2px 10px rgba(0,0,0,0.03);
   }
   
@@ -25,7 +25,7 @@
     border-radius: 8px;
     display: block;
     margin-bottom: 1rem;
-    background: #eee;
+    background: var(--soft-green);
   }
   
   .origin-title {
@@ -34,11 +34,13 @@
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     line-height: 1.1;
+    color: var(--primary-pink);
+
   }
   
   .origin-description {
     font-size: 1rem;
-    color: #222;
+    color: var(--dark-text);
     line-height: 1.5;
     text-align: justify;
     text-justify: inter-word;
@@ -49,7 +51,7 @@
     margin-top: 1rem;
     border-radius: 8px;
     border: 1px solid #bbb;
-    background: #eee;
+    background: var(--soft-pink);
   }
 
   

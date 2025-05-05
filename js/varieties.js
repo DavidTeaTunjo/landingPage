@@ -22,7 +22,6 @@ function renderCarousel() {
     card.className = 'carousel-card' + (offset === 0 ? ' center' : '');
     card.innerHTML = `
       <img src="${variety.UrlImage}" alt="${variety.name}"> `;
-    // Al hacer click en una lateral, la centra
     if (offset !== 0) {
       card.addEventListener('click', () => {
         currentIndex = idx;
@@ -39,6 +38,8 @@ function renderDescription() {
   const variety = varietiesData[currentIndex];
   desc.innerHTML = `
     <h2>${variety.name}</h2>
+    <p>${variety.process}</p>
+    <p>${variety.cupScore}</p>
     <p>${variety.description}</p>
   `;
 }
