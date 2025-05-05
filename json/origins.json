@@ -1,55 +1,54 @@
 {
-    "origins": [
-        {
-          "id": "montebello",
-          "name": "Montebello",
-          "UrlImage": "assets/montebello.jpg",
-          "description": "Perched in the lush mountains of southeastern Antioquia, Montebello is a hidden gem within Colombia’s historic coffee axis. With altitudes reaching over 1800 meters, the region offers an ideal microclimate for specialty coffee: cool nights, abundant rainfall, and gentle mist that nurtures slow cherry maturation. The volcanic influence from the Central Andes enriches its soils with minerals, fostering healthy root systems and complex flavor development in the beans. Traditionally known for its resilient Castillo and Caturra varieties, Montebello has recently embraced experimental fermentation methods, reflecting a growing curiosity and innovation among its producers. Coffee here tends to be balanced and clean, with lively citric acidity and notes of panela, florals, and red fruits. The culture of Montebello is deeply tied to the land—families pass down both farms and knowledge through generations. Cooperative spirit thrives, supported by strong community ties and a deep respect for the rhythms of the mountain. Coffee is not just a livelihood; it's part of identity, celebration, and everyday conversation. With increased access to post-harvest technologies and a younger generation stepping into the fields, Montebello is poised to shine brighter in Colombia’s specialty scene—offering not just excellent coffee, but stories of heritage, renewal, and craft.",
-          "location": {
-            "lat": 5.94030,
-            "lng": -75.53740
-          }
-        },
-        {
-          "id": "anserma",
-          "name": "Anserma",
-          "UrlImage": "assets/anserma.jpg",
-          "description": "Located on the western slope of the Cordillera Central, Anserma is a vital point within the UNESCO-recognized Colombian Coffee Cultural Landscape. Its geography is breathtaking: steep hillsides carved by rivers, rich volcanic soils, and altitudes ranging from 1400 to 2000 meters above sea level. The combination of fertile earth and diverse microclimates makes Anserma an ideal canvas for high-quality Arabica cultivation. Coffee grown here often boasts a bright acidity with sweet, creamy bodies—profiles frequently marked by caramel, citrus, and cocoa. The region’s biodiversity also plays a role, as agroforestry practices maintain natural shade and preserve native species. But it is the culture of Anserma that truly stands out: deeply rooted in tradition, yet adaptive and forward-thinking. The town is home to a vibrant network of smallholder farmers who uphold time-honored techniques while increasingly experimenting with honey and natural processes. Coffee here is a communal effort, with strong cooperatives and social enterprises supporting education, quality control, and access to markets. The spirit of Anserma is humble but ambitious—driven by pride in its land and a desire to be known not just for volume, but for excellence and traceable flavor. Every cup from Anserma tells a story of dedication, resilience, and mountain-grown passion.",
-          "location": {
-            "lat": 5.2283811,
-            "lng": -75.7968517
-          }
-        },
-        {
-          "id": "aipe",
-          "name": "Aipé",
-          "UrlImage": "assets/aipe.jpg",
-          "description": "Nestled near the Magdalena River basin, Aipé represents a bold and evolving frontier in Huila’s coffee map. Though historically overshadowed by neighboring towns like Pitalito and Acevedo, Aipé’s altitude (rising up to 1850 masl), volcanic soil, and dry tropical climate offer ideal conditions for slow cherry development and high sugar concentration in beans. Its proximity to the Nevado del Huila volcano enriches the land with deep layers of mineral nutrients, yielding coffees of remarkable complexity and sweetness. As more producers in Aipé embrace specialty markets, the region is starting to gain attention for its bright, fruit-forward profiles—often featuring red fruits, stone fruits, and a crisp citric or malic acidity. The cultural identity of Aipé is one of quiet strength. Farming families here are proud stewards of their land, many of them tending small plots where coffee, plantains, and yucca grow side by side. Generational knowledge is met with a growing openness to innovation—producers are increasingly experimenting with fermentation styles and shade management, eager to differentiate their lots. Infrastructure remains a challenge, but strong community ties and recent training programs are helping elevate quality standards and traceability. Aipé is a place of untapped potential—where bold coffees are born from rich soil, mountain air, and a resilient spirit.",
-          "location": {
-            "lat": 3.2373739,
-            "lng": -75.5460579
-          }
-        },
-        {
-          "id": "purificacion",
-          "name": "Purificación",
-          "UrlImage": "assets/purificacion.jpg",
-          "description": "Located on the eastern slopes of the Central Andes, Purificación is one of Tolima’s lesser-known yet rapidly emerging coffee origins. The town rests at elevations ranging from 1300 to 1800 meters above sea level and benefits from a unique blend of tropical warmth and Andean breezes. This geography allows for staggered flowering and harvest cycles, giving producers greater control over cherry selection and fermentation timing. The soils here, enriched by ancient volcanic activity and river sediments from the Magdalena basin, are deep and fertile—ideal for cultivating vibrant, flavorful coffee. In the cup, Purificación coffees are known for their juicy acidity, medium body, and flavor profiles that range from panela and sweet herbs to tropical fruits and red berries. The cultural landscape is equally rich. Coffee farms are mostly smallholder operations, often passed down through generations, where work is guided by intuition, seasonal rhythms, and deep respect for the land. While traditionally focused on volume, a new wave of producers—many of them younger and digitally connected—are embracing specialty practices like selective picking, anaerobic fermentation, and micro-lot separation. As infrastructure and market access improve, Purificación is beginning to redefine itself—not just as a supplier of coffee, but as a source of innovation, quality, and terroir-driven identity within the Tolima coffee scene.",
-          "location": {
-            "lat": 3.8567052,
-            "lng": -74.9508514
-          }
-        },
-        {
-          "id": "tambo",
-          "name": "El Tambo",
-          "UrlImage": "assets/tambo.jpg",
-          "description": "Tucked into the western Andes of southern Colombia, El Tambo is a high-altitude cradle of biodiversity and cultural resilience. With farms located between 1600 and 2000 meters above sea level, this region enjoys cool temperatures, frequent cloud cover, and dramatic diurnal shifts—conditions that promote slow cherry ripening and deep sugar accumulation. The soils are rich in organic matter and volcanic minerals, thanks to the nearby Puracé volcano, providing a nourishing environment that enhances bean density and flavor complexity. El Tambo’s coffees are known for their brightness and elegance: pronounced floral aromatics, citrusy acidity, and clean profiles often featuring stone fruits, white flowers, and sweet spices. The people of El Tambo, many of them Indigenous Misak or of Afro-Colombian descent, are deeply connected to the land and to sustainable, agroecological farming methods. Coffee is not just a crop—it’s an expression of identity, autonomy, and stewardship. Community-based initiatives and producer associations have played a pivotal role in fostering education around post-harvest practices, fermentation experimentation, and traceability. Despite historical challenges, El Tambo stands today as a beacon of potential in Cauca’s specialty coffee movement. Its coffees are a reflection of mountain resilience, ancestral wisdom, and a powerful will to craft something extraordinary from the heart of the Andes.",
-          "location": {
-            "lat": 2.5175186,
-            "lng": -77.1538553
-          }
+  "origins": [
+      {
+        "id": "montebello",
+        "name": "Montebello",
+        "UrlImage": "assets/montebello.jpg",
+        "description": "Perched in the lush mountains of southeastern Antioquia, Montebello is a hidden gem within Colombia’s historic coffee axis. With altitudes reaching over 1800 meters, the region offers an ideal microclimate for specialty coffee: cool nights, abundant rainfall, and gentle mist that nurtures slow cherry maturation. The volcanic influence from the Central Andes enriches its soils with minerals, fostering healthy root systems and complex flavor development in the beans. Traditionally known for its resilient Castillo and Caturra varieties, Montebello has recently embraced experimental fermentation methods, reflecting a growing curiosity and innovation among its producers. Coffee here tends to be balanced and clean, with lively citric acidity and notes of panela, florals, and red fruits. The culture of Montebello is deeply tied to the land—families pass down both farms and knowledge through generations. Cooperative spirit thrives, supported by strong community ties and a deep respect for the rhythms of the mountain. Coffee is not just a livelihood; it's part of identity, celebration, and everyday conversation. With increased access to post-harvest technologies and a younger generation stepping into the fields, Montebello is poised to shine brighter in Colombia’s specialty scene—offering not just excellent coffee, but stories of heritage, renewal, and craft.",
+        "location": {
+          "lat": 5.94030,
+          "lng": -75.53740
         }
-    ]
-  }
-  
+      },
+      {
+        "id": "anserma",
+        "name": "Anserma",
+        "UrlImage": "assets/anserma.jpg",
+        "description": "Located on the western slope of the Cordillera Central, Anserma is a vital point within the UNESCO-recognized Colombian Coffee Cultural Landscape. Its geography is breathtaking: steep hillsides carved by rivers, rich volcanic soils, and altitudes ranging from 1400 to 2000 meters above sea level. The combination of fertile earth and diverse microclimates makes Anserma an ideal canvas for high-quality Arabica cultivation. Coffee grown here often boasts a bright acidity with sweet, creamy bodies—profiles frequently marked by caramel, citrus, and cocoa. The region’s biodiversity also plays a role, as agroforestry practices maintain natural shade and preserve native species. But it is the culture of Anserma that truly stands out: deeply rooted in tradition, yet adaptive and forward-thinking. The town is home to a vibrant network of smallholder farmers who uphold time-honored techniques while increasingly experimenting with honey and natural processes. Coffee here is a communal effort, with strong cooperatives and social enterprises supporting education, quality control, and access to markets. The spirit of Anserma is humble but ambitious—driven by pride in its land and a desire to be known not just for volume, but for excellence and traceable flavor. Every cup from Anserma tells a story of dedication, resilience, and mountain-grown passion.",
+        "location": {
+          "lat": 5.2283811,
+          "lng": -75.7968517
+        }
+      },
+      {
+        "id": "aipe",
+        "name": "Aipé",
+        "UrlImage": "assets/aipe.jpg",
+        "description": "Nestled near the Magdalena River basin, Aipé represents a bold and evolving frontier in Huila’s coffee map. Though historically overshadowed by neighboring towns like Pitalito and Acevedo, Aipé’s altitude (rising up to 1850 masl), volcanic soil, and dry tropical climate offer ideal conditions for slow cherry development and high sugar concentration in beans. Its proximity to the Nevado del Huila volcano enriches the land with deep layers of mineral nutrients, yielding coffees of remarkable complexity and sweetness. As more producers in Aipé embrace specialty markets, the region is starting to gain attention for its bright, fruit-forward profiles—often featuring red fruits, stone fruits, and a crisp citric or malic acidity. The cultural identity of Aipé is one of quiet strength. Farming families here are proud stewards of their land, many of them tending small plots where coffee, plantains, and yucca grow side by side. Generational knowledge is met with a growing openness to innovation—producers are increasingly experimenting with fermentation styles and shade management, eager to differentiate their lots. Infrastructure remains a challenge, but strong community ties and recent training programs are helping elevate quality standards and traceability. Aipé is a place of untapped potential—where bold coffees are born from rich soil, mountain air, and a resilient spirit.",
+        "location": {
+          "lat": 3.2373739,
+          "lng": -75.5460579
+        }
+      },
+      {
+        "id": "purificacion",
+        "name": "Purificación",
+        "UrlImage": "assets/purificacion.jpg",
+        "description": "Located on the eastern slopes of the Central Andes, Purificación is one of Tolima’s lesser-known yet rapidly emerging coffee origins. The town rests at elevations ranging from 1300 to 1800 meters above sea level and benefits from a unique blend of tropical warmth and Andean breezes. This geography allows for staggered flowering and harvest cycles, giving producers greater control over cherry selection and fermentation timing. The soils here, enriched by ancient volcanic activity and river sediments from the Magdalena basin, are deep and fertile—ideal for cultivating vibrant, flavorful coffee. In the cup, Purificación coffees are known for their juicy acidity, medium body, and flavor profiles that range from panela and sweet herbs to tropical fruits and red berries. The cultural landscape is equally rich. Coffee farms are mostly smallholder operations, often passed down through generations, where work is guided by intuition, seasonal rhythms, and deep respect for the land. While traditionally focused on volume, a new wave of producers—many of them younger and digitally connected—are embracing specialty practices like selective picking, anaerobic fermentation, and micro-lot separation. As infrastructure and market access improve, Purificación is beginning to redefine itself—not just as a supplier of coffee, but as a source of innovation, quality, and terroir-driven identity within the Tolima coffee scene.",
+        "location": {
+          "lat": 3.8567052,
+          "lng": -74.9508514
+        }
+      },
+      {
+        "id": "tambo",
+        "name": "El Tambo",
+        "UrlImage": "assets/el_tambo.jpg",
+        "description": "Tucked into the western Andes of southern Colombia, El Tambo is a high-altitude cradle of biodiversity and cultural resilience. With farms located between 1600 and 2000 meters above sea level, this region enjoys cool temperatures, frequent cloud cover, and dramatic diurnal shifts—conditions that promote slow cherry ripening and deep sugar accumulation. The soils are rich in organic matter and volcanic minerals, thanks to the nearby Puracé volcano, providing a nourishing environment that enhances bean density and flavor complexity. El Tambo’s coffees are known for their brightness and elegance: pronounced floral aromatics, citrusy acidity, and clean profiles often featuring stone fruits, white flowers, and sweet spices. The people of El Tambo, many of them Indigenous Misak or of Afro-Colombian descent, are deeply connected to the land and to sustainable, agroecological farming methods. Coffee is not just a crop—it’s an expression of identity, autonomy, and stewardship. Community-based initiatives and producer associations have played a pivotal role in fostering education around post-harvest practices, fermentation experimentation, and traceability. Despite historical challenges, El Tambo stands today as a beacon of potential in Cauca’s specialty coffee movement. Its coffees are a reflection of mountain resilience, ancestral wisdom, and a powerful will to craft something extraordinary from the heart of the Andes.",
+        "location": {
+          "lat": 2.5175186,
+          "lng": -77.1538553
+        }
+      }
+  ]
+}
