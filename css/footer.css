@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    background: #fff;
     border-top: 1px solid #e0e0e0;
     padding: 32px 0;
     display: flex;
@@ -12,18 +11,22 @@
     border-radius: 12px;
     background: #fafbfc;
     padding: 24px 40px;
-    max-width: 500px;
+    max-width: 600px;
     width: 90%;
     text-align: center;
     box-shadow: 0 4px 18px rgba(44,62,80,0.04);
   }
   
   .footer-link {
-    color: #1a0dab;
+    color: var(--primary-pink);
     text-decoration: underline;
     font-size: 1.08rem;
     margin-bottom: 10px;
     display: inline-block;
+  }
+
+  .footer-link:hover {
+    color: var(--primary-green);
   }
   
   .footer-copy {
