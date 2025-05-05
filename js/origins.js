@@ -77,9 +77,18 @@ fetch("json/origins.json")
     // Manejar el scroll para mostrar el mapa del primer origen visible
     originsList.addEventListener('scroll', () => {
       const originCards = originsList.children;
+      const originsDataIni = originsData[0]
       for (let i = 0; i < originCards.length; i++) {
+        console.log(originCards[i]);
+        
         if (isVisible(originCards[i], originsList)) {
-          showMapForOrigin(originsData[i]);
+          if (originsDataIni != originsData[i]){
+             showMapForOrigin(originsData[i]);
+             originsDataIni = originsData[i];
+          }else{
+            showMapForOrigin(originsData[0]);
+          }
+          
           break;
         }
       }
