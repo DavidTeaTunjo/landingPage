@@ -1,65 +1,87 @@
 let originsData = [];
 
-function initOriginsMap() {
-  originsData.forEach(origin => {
-    const mapDiv = document.getElementById('map-' + origin.id);
-    if (mapDiv) {
-      const map = new google.maps.Map(mapDiv, {
-        center: origin.location,
-        zoom: 11,
-        mapTypeId: 'terrain',
-        disableDefaultUI: true
-      });
-      new google.maps.Marker({
-        position: origin.location,
-        map: map,
-        title: origin.name
-      });
-    }
-  });
+function showMapForOrigin(origin) {
+  const originsMaps = document.getElementById("origins-maps");
+  originsMaps.innerHTML = ''; // Limpia el contenedor
+
+  // Crea el div del mapa
+  const mapDiv = document.createElement("div");
+  mapDiv.className = "origin-map";
+  mapDiv.id = "map-" + origin.id;
+  originsMaps.appendChild(mapDiv);
+
+  // Inicializa el mapa con Leaflet
+  const map = L.map(mapDiv).setView([origin.location.lat, origin.location.lng], 11);
+
+  // Añade la capa de OpenStreetMap
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Añade el marcador
+  L.marker([origin.location.lat, origin.location.lng])
+    .addTo(map)
+    .bindPopup(origin.name);
 }
 
-fetch('json/origins.json')
-  .then(response => response.json())
-  .then(data => {
+// Utilidad: ¿es visible (aunque sea parcialmente) en el contenedor?
+function isVisible(ele, container) {
+  const eleRect = ele.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  return (
+    eleRect.bottom > containerRect.top &&
+    eleRect.top < containerRect.bottom
+  );
+}
+
+fetch("json/origins.json")
+  .then((response) => response.json())
+  .then((data) => {
     originsData = data.origins;
-    const originsList = document.getElementById('origins-list');
-    data.origins.forEach(origin => {
+    const originsList = document.getElementById("origins-list");
+
+    data.origins.forEach((origin) => {
       // Contenedor principal
-      const originDiv = document.createElement('div');
-      originDiv.className = 'origin-card';
+      const originDiv = document.createElement("div");
+      originDiv.className = "origin-card";
 
       // Imagen
-      const img = document.createElement('img');
+      const img = document.createElement("img");
       img.src = origin.UrlImage;
       img.alt = origin.name;
-      img.className = 'origin-image';
+      img.className = "origin-image";
 
       // Nombre
-      const title = document.createElement('h3');
+      const title = document.createElement("h3");
       title.textContent = origin.name;
-      title.className = 'origin-title';
+      title.className = "origin-title";
 
       // Descripción
-      const desc = document.createElement('p');
+      const desc = document.createElement("p");
       desc.textContent = origin.description;
-      desc.className = 'origin-description';
-
-      // Mapa
-      const mapDiv = document.createElement('div');
-      mapDiv.className = 'origin-map';
-      mapDiv.id = 'map-' + origin.id;
+      desc.className = "origin-description";
 
       // Estructura
       originDiv.appendChild(img);
       originDiv.appendChild(title);
       originDiv.appendChild(desc);
-      originDiv.appendChild(mapDiv);
 
       originsList.appendChild(originDiv);
     });
-    // Si Google Maps ya cargó, inicializa los mapas
-    if (window.google && window.google.maps) {
-      initOriginsMap();
+
+    // Mostrar el mapa del primer origen al cargar
+    if (originsData.length > 0) {
+      showMapForOrigin(originsData[0]);
     }
+
+    // Manejar el scroll para mostrar el mapa del primer origen visible
+    originsList.addEventListener('scroll', () => {
+      const originCards = originsList.children;
+      for (let i = 0; i < originCards.length; i++) {
+        if (isVisible(originCards[i], originsList)) {
+          showMapForOrigin(originsData[i]);
+          break;
+        }
+      }
+    });
   });

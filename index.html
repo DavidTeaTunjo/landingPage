@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/whatsApp.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" crossorigin=""></script>
+
 </head>
 
 <body>
@@ -26,7 +29,7 @@
       <span class="bar"></span>
     </div>
   </header>
-  
+
 
   <nav>
     <ul class="nav-links" id="navLinks">
@@ -138,22 +141,37 @@
   </section>
 
 
-  
+
 
   <section id="origins">
     <h2 class="subTitles">Origins</h2>
-    <div id="origins-list"></div>
+    <div class="origins">
+      <div id="origins-list"></div>
+      <div id="origins-maps"></div>
+    </div>
   </section>
 
   <h2 id="about" class="subTitles">About Us</h2>
   <section class="about-section">
     <div class="about-card">
       <p class="about-description">
-        Velvet Greens was born from the deep admiration we hold for the fertile lands of Colombia, a place where the soil breathes life into everything it touches. These lands, rich with biodiversity and tradition, inspired us to begin a journey rooted in respect for nature’s rhythms. From the earliest days, we saw crops, but we also saw potential, magic, and a responsibility to nurture both the earth and those who work it.
+        Velvet Greens was born from the deep admiration we hold for the fertile lands of Colombia, a place where the
+        soil breathes life into everything it touches. These lands, rich with biodiversity and tradition, inspired us to
+        begin a journey rooted in respect for nature’s rhythms. From the earliest days, we saw crops, but we also saw
+        potential, magic, and a responsibility to nurture both the earth and those who work it.
         <br><br>
-        At the heart of our story are the local farmers who give these lands their spirit. We believe in standing beside them, not just as partners but as allies committed to progress. Velvet Greens exists to support their efforts, amplify their voices, and bring meaningful innovation into their daily practices. Through hands-on collaboration and purposeful technology, we work to improve both the quality of the product and the quality of life in farming communities. Every step forward is a shared achievement.
+        At the heart of our story are the local farmers who give these lands their spirit. We believe in standing beside
+        them, not just as partners but as allies committed to progress. Velvet Greens exists to support their efforts,
+        amplify their voices, and bring meaningful innovation into their daily practices. Through hands-on collaboration
+        and purposeful technology, we work to improve both the quality of the product and the quality of life in farming
+        communities. Every step forward is a shared achievement.
         <br><br>
-        Sustainability is the thread that ties our mission together. From post-harvest processes to packaging and distribution, we are intentional about making choices that respect the environment and secure long-term value. We see technology not as a replacement for tradition, but as a tool to enhance it, because technology in the right hands with the right vision offers better alternatives for growers, consumers, and the planet. Velvet Greens is more than a brand; it’s a movement to grow with purpose, rooted in the land, led by people, and driven by love.
+        Sustainability is the thread that ties our mission together. From post-harvest processes to packaging and
+        distribution, we are intentional about making choices that respect the environment and secure long-term value.
+        We see technology not as a replacement for tradition, but as a tool to enhance it, because technology in the
+        right hands with the right vision offers better alternatives for growers, consumers, and the planet. Velvet
+        Greens is more than a brand; it’s a movement to grow with purpose, rooted in the land, led by people, and driven
+        by love.
       </p>
     </div>
   </section>
@@ -170,10 +188,11 @@
       </p>
     </div>
   </section>
-  
+
   <footer class="footer">
     <div class="footer-content">
-      <a href="https://jchac-velvetgreens.github.io/velvet-greens-ws/website/pages/privacy-notice.html" class="footer-link">Privacy Statement</a>
+      <a href="https://jchac-velvetgreens.github.io/velvet-greens-ws/website/pages/privacy-notice.html"
+        class="footer-link">Privacy Statement</a>
       <p class="footer-copy">
         © 2025 Tunjo Smart Solutions. All rights reserved.
       </p>
@@ -181,13 +200,11 @@
   </footer>
 
   <a href="https://api.whatsapp.com/send?phone=573208466568&text=I%20want%20to%20know%20more%20about%20your%20coffee%20varieties"
-   class="whatsapp-float"
-   target="_blank"
-   aria-label="Chat on WhatsApp">
-   <i class="fa fa-whatsapp" style="font-size:36px;"></i>
+    class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fa fa-whatsapp" style="font-size:36px;"></i>
   </a>
 
-  
+
 
 
 

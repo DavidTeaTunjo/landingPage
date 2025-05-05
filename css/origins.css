@@ -1,12 +1,19 @@
+.origins {
+  display: flex;
+  padding: 0 20px 0 20px;
+}
 #origins-list {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin: 20px;
-  height: 600px;         /* Ajusta este valor según lo que necesites */
+  margin-bottom: 30px;
+  height: 600px;
   overflow-y: auto;
-  /* Opcional: para que el scroll solo sea vertical y no horizontal */
   overflow-x: hidden;
+  width: 50%;
+  border: 1px solid var(--soft-gray);
+  border-radius: 8px;
 }
 
 .origin-card {
@@ -50,12 +57,16 @@
   text-justify: inter-word;
 }
 
+#origins-maps {
+  width: 50%;
+}
+
 .origin-map {
   width: 100%;
-  height: 180px;
+  height: 93%;
   margin-top: 1rem;
   border-radius: 8px;
-  border: 1px solid #bbb;
+  border: 1px solid var(--soft-gray);
   background: var(--soft-pink);
 }
 
