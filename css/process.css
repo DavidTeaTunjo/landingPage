@@ -105,9 +105,17 @@
     min-width: 92vw;
   }
   .process-card img {
-    height: 45vw;
-    max-height: 370px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    background: var(--soft-green);
+    border-radius: 18px 18px 0 0;
   }
+  
   .processes-carousel {
     max-width: 98vw;
     padding: 0;
@@ -120,7 +128,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #04AA6D;
+    background: var(--primary-pink);
     color: #fff;
     border: none;
     border-radius: 50%;

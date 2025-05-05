@@ -78,6 +78,11 @@
   #origins-list {
     margin: 8px;
     gap: 1.2rem;
+    width: 100%;
+  }
+
+  #origins-maps {
+    display: none;
   }
 
   .origin-card {

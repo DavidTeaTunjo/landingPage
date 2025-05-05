@@ -38,8 +38,8 @@ function renderDescription() {
   const variety = varietiesData[currentIndex];
   desc.innerHTML = `
     <h2>${variety.name}</h2>
-    <p>${variety.process}</p>
-    <p>${variety.cupScore}</p>
+    <p>Process:  ${variety.process}</p>
+    <p>Score: ${variety.cupScore}</p>
     <p>${variety.description}</p>
   `;
 }
