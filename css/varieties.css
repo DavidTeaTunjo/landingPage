@@ -96,6 +96,7 @@
   .carousel-description p {
     font-size: 1.1rem;
     color: #444;
+    height: 130px;
   }
 
   /* Responsive */

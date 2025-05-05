@@ -1,42 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Landing Coffee</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/varieties.css">
+  <link rel="stylesheet" href="css/process.css">
+  <link rel="stylesheet" href="css/origins.css">
+  <link rel="stylesheet" href="css/aboutUs.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/whatsApp.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <img src="images/logo.png" alt="Logo Café" class="logo">
-        <span class="site-title">Texto</span>
-        <div class="hamburger" id="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+  <header class="header">
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <span class="site-title">Texto</span>
+    <div class="hamburger" id="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  
+
+  <nav>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#varieties">Varieties</a></li>
+      <li><a href="#processes">Processes</a></li>
+      <li><a href="#origins">Origins</a></li>
+      <li><a href="#about">About us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="varieties" class="subTitles">Varieties</h2>
+
+  <section id="varieties-carousel" class="carousel-section">
+    <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+    <div class="carousel-track" id="carouselTrack"></div>
+    <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+    <div class="carousel-description" id="carouselDescription"></div>
+  </section>
+
+  <h2 id="processes" class="subTitles">Processes</h2>
+  <section class="processes-carousel">
+    <button class="proc-btn prev" id="procPrev" aria-label="Anterior">&#10094;</button>
+    <div class="proc-track" id="procTrack">
+      <div class="process-card">
+        <img src="assets/lactofermented.jpg" alt="Lacto-Fermented Processing">
+        <div class="process-desc">
+          <h3>Lacto-Fermented Processing</h3>
+          <p>Fermentation guided by lactic acid bacteria yields creamy acidity and layered complexity.</p>
+          <ul>
+            <li>Select high-brix cherries using IoT-connected refractometers.</li>
+            <li>Disinfect and place depulped beans in sealed anaerobic tanks.</li>
+            <li>Inoculate previously isolated cultures of Lactobacillae.</li>
+            <li>Track pH, Temperature and other metrics using IoT fermentation controllers.</li>
+            <li>Ferment for about 72 hours, or until completion, guided by sensor alerts.</li>
+            <li>Dry on beds with constant humidity and temperature monitoring.</li>
+            <li>Evaluate results with cupping profiles and batch traceability.</li>
+          </ul>
         </div>
-      </header>
-      
-      <nav>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#varieties">Varieties</a></li>
-          <li><a href="#processes">Processes</a></li>
-          <li><a href="#origins">Origins</a></li>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      
-      <section id="varieties-carousel" class="carousel-section">
-        <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
-        <div class="carousel-track" id="carouselTrack"></div>
-        <button class="carousel-btn next" id="nextBtn">&#10095;</button>
-        <div class="carousel-description" id="carouselDescription"></div>
-      </section>
-      
-      
+      </div>
+      <div class="process-card">
+        <img src="assets/washed.jpg" alt="Washed Processing">
+        <div class="process-desc">
+          <h3>Washed Processing</h3>
+          <p>Cherries are depulped and fermented to highlight clarity, acidity, and terroir-specific flavor.</p>
+          <ul>
+            <li>Use IoT tools to schedule optimal harvest based on sugar content.</li>
+            <li>Depulp cherries using calibrated mechanical depulpers.</li>
+            <li>Ferment in tanks for 12–24 hours, tracking pH and temperature with IoT sensors.</li>
+            <li>Wash beans with clean water until mucilage is removed.</li>
+            <li>Dry beans on beds or patios, adjusting exposure with sensor data.</li>
+            <li>Monitor moisture content continuously with IoT probes.</li>
+            <li>Store in breathable bags in monitored warehouses.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <img src="assets/natural.jpg" alt="Natural Processing">
+        <div class="process-desc">
+          <h3>Natural Processing</h3>
+          <p>Cherries are dried whole under controlled conditions to enhance fruit-forward flavors and complexity.</p>
+          <ul>
+            <li>Harvest only ripe cherries, using IoT sensors to track ripeness indicators.</li>
+            <li>Spread cherries on raised beds in sun-rich, ventilated areas.</li>
+            <li>Use IoT-based drying monitors to track moisture and ambient conditions.</li>
+            <li>Turn cherries regularly for uniform drying.</li>
+            <li>Adjust shade levels based on IoT alerts for humidity or temperature spikes.</li>
+            <li>Dry to 10-12% moisture content over 21–30 days.</li>
+            <li>Store in climate-monitored spaces with real-time monitoring.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <img src="assets/honey.jpg" alt="Honey Processing">
+        <div class="process-desc">
+          <h3>Honey Processing</h3>
+          <p>Cherries are depulped and dried with mucilage to develop a sweet, balanced profile.</p>
+          <ul>
+            <li>Harvest ripe cherries using maturity data from field IoT sensors.</li>
+            <li>Depulp carefully to retain desired mucilage level.</li>
+            <li>Dry beans on raised beds under partial shade.</li>
+            <li>Use IoT-controlled dryers or alert systems to stabilize conditions.</li>
+            <li>Turn beans frequently to prevent over-fermentation.</li>
+            <li>Target moisture content of 10.5–11.5%.</li>
+            <li>Track drying time and consistency with real-time data logs.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <img src="assets/double_alcoholic.jpg" alt="Double Alcoholic Fermentation">
+        <div class="process-desc">
+          <h3>Double Alcoholic Fermentation</h3>
+          <p>Two-phase fermentation intensifies flavor, structure, and aromatic complexity in premium lots.</p>
+          <ul>
+            <li>Ferment whole cherries anaerobically for 48 hours, monitoring yeast activity with IoT tools.</li>
+            <li>Depulp and transfer to new tanks with mucilage and farm-specific isolated yeasts for second
+              fermentation.</li>
+            <li>Continue fermentation for 60 hours, tracking sugar breakdown with real-time analytics.</li>
+            <li>Stabilize microbial activity through IoT-driven pH and ORP sensors.</li>
+            <li>Dry beans slowly on beds, adjusting based on ambient conditions via weather-linked data.</li>
+            <li>Ensure target moisture content using IoT moisture sensors.</li>
+            <li>Archive process data and batch history to support quality validation and export compliance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button class="proc-btn next" id="procNext" aria-label="Siguiente">&#10095;</button>
+    <div class="proc-indicators" id="procIndicators"></div>
+  </section>
+
+
+  
+
+  <section id="origins">
+    <h2 class="subTitles">Origins</h2>
+    <div id="origins-list"></div>
+  </section>
+
+  <h2 id="about" class="subTitles">About Us</h2>
+  <section class="about-section">
+    <div class="about-card">
+      <p class="about-description">
+        Velvet Greens was born from the deep admiration we hold for the fertile lands of Colombia, a place where the soil breathes life into everything it touches. These lands, rich with biodiversity and tradition, inspired us to begin a journey rooted in respect for nature’s rhythms. From the earliest days, we saw crops, but we also saw potential, magic, and a responsibility to nurture both the earth and those who work it.
+        <br><br>
+        At the heart of our story are the local farmers who give these lands their spirit. We believe in standing beside them, not just as partners but as allies committed to progress. Velvet Greens exists to support their efforts, amplify their voices, and bring meaningful innovation into their daily practices. Through hands-on collaboration and purposeful technology, we work to improve both the quality of the product and the quality of life in farming communities. Every step forward is a shared achievement.
+        <br><br>
+        Sustainability is the thread that ties our mission together. From post-harvest processes to packaging and distribution, we are intentional about making choices that respect the environment and secure long-term value. We see technology not as a replacement for tradition, but as a tool to enhance it, because technology in the right hands with the right vision offers better alternatives for growers, consumers, and the planet. Velvet Greens is more than a brand; it’s a movement to grow with purpose, rooted in the land, led by people, and driven by love.
+      </p>
+    </div>
+  </section>
+
+  <h2 class="subTitles">Contact</h2>
+  <section id="contact" class="contact-section">
+    <div class="contact-info-card">
+      <p><strong>Email:</strong> info@velvetgreens.com</p>
+      <p><strong>Phone:</strong> +57 123 456 7890</p>
+      <p><strong>Location:</strong> Bogotá, Colombia</p>
+      <p><strong>Follow us:</strong>
+        <a href="https://instagram.com/velvetgreens" target="_blank">Instagram</a> |
+        <a href="https://facebook.com/velvetgreens" target="_blank">Facebook</a>
+      </p>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <a href="/privacy.html" class="footer-link">Privacy Statement</a>
+      <p class="footer-copy">
+        © 2025 Tunjo Smart Solutions. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=573208466568&text=I%20want%20to%20know%20more%20about%20your%20coffee%20varieties"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+   <i class="fa fa-whatsapp" style="font-size:36px;"></i>
+  </a>
+
+  
+
+
+
+
   <script src="js/navbar.js"></script>
   <script src="js/varieties.js"></script>
+  <script src="js/process.js"></script>
+  <script src="js/origins.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initOriginsMap">
+  </script>
+
 </body>
+
 </html>
