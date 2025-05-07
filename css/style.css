@@ -9,6 +9,7 @@
   --soft-pink-transparent: #eca2c6fb;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +23,10 @@ body {
   /* Supporting Neutral */
   color: #2D2D2D;
   /* Dark Neutral for text */
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
 }
+
 
 .header {
   display: flex;
